@@ -44,7 +44,6 @@ class Storage:
         return result
 
 
-
 class Server(asyncio.Protocol):
     def __init__(self):
         self.storage = Storage()
